@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double Navbar</title>
+   
+</head>
+<body>
+
+<header class="header fixed-top bg-white shadow-sm">
+    <!-- Main Navbar -->
+    <div class="border-bottom border-gray-300">
+        <div class="container-fluid d-flex justify-content-between align-items-center py-2 px-4">
+            <nav class="d-none d-md-flex align-items-center">
+                <div class="logo">
+                    <a href="/"><img src="../../assets/logo.png" alt="logo"></a>
+                </div>
+                <ul class="navbar-nav flex-row ms-4">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Industries
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <!-- Dropdown items here -->
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown ms-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Solutions
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                            <!-- Dropdown items here -->
+                        </ul>
+                    </li>
+                    <li class="nav-item ms-3"><a class="nav-link" href="/sustainability">Sustainability</a></li>
+                    <li class="nav-item dropdown ms-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Catalog
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                            <!-- Dropdown items here -->
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="navbar-nav flex-row">
+                <li class="nav-item ms-3"><a class="nav-link" href="/about-us">About Us</a></li>
+                <li class="nav-item dropdown ms-3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Newsroom
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                        <li><a class="dropdown-item" href="/news">Moglix in Media</a></li>
+                        <li><a class="dropdown-item" href="/events">Events</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown ms-3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Resources
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown5">
+                        <li><a class="dropdown-item" href="/blogs">Blogs</a></li>
+                        <li><a class="dropdown-item" href="/case-studies">Case Studies</a></li>
+                        <li><a class="dropdown-item" href="/webinars">Webinars</a></li>
+                        <li><a class="dropdown-item" href="/videos">Videos</a></li>
+                        <li><a class="dropdown-item" href="/ebooks">E-books</a></li>
+                        <li><a class="dropdown-item" href="/awards">Award & Recognition</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item ms-3">
+                    <button class="btn btn-primary">Contact Us</button>
+                </li>
+            </ul>
+            <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </div>
+
+     <!-- Subheader -->
+     <div class="bg-light">
+        <div class="container-fluid d-flex justify-content-between align-items-center py-2 px-4">
+            <ul class="navbar-nav flex-row">
+                <li class="nav-item"><a class="nav-link" href="/our-solutions/maas-fabrication">Fabrication</a></li>
+                <li class="nav-item ms-3"><a class="nav-link" href="/our-solutions/optimize-mro-procurement">Enterprise</a></li>
+                <li class="nav-item ms-3"><a class="nav-link" href="https://packaging.moglix.com/">Packaging</a></li>
+                <li class="nav-item ms-3"><a class="nav-link" href="https://fashion.moglix.com/">Fashion</a></li>
+                <li class="nav-item ms-3"><a class="nav-link" href="https://zoglix.com/">Zoglix</a></li>
+                <li class="nav-item ms-3"><a class="nav-link" href="https://www.moglix.com/">Moglix</a></li>
+                <li class="nav-item ms-3"><a class="nav-link" href="https://www.moglix.ae/">Moglix UAE</a></li>
+            </ul>
+            <ul class="navbar-nav flex-row">
+                <li class="nav-item ms-3">
+                    <a class="nav-link d-flex align-items-center" href="https://www.credlix.com/">
+                        <img src="../../assets/credlix level.svg" alt="Credlix logo" class="me-2">
+                        Get your Invoices & PO Financed today  
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+
+<div class="container mt-5">
+    <div class="row mt-5">
+      <div class="col md-4">
+        <div class="list-group" id="list-tab" role="tablist">
+          <a class="list-group-item list-group-item-action active" id="list-Steel-list" data-toggle="list" href="#list-Steel" role="tab" aria-controls="Steel">Steel</a>
+          <a class="list-group-item list-group-item-action" id="list-RMC-list" data-toggle="list" href="#list-RMC" role="tab" aria-controls="RMC">RMC</a>
+          <a class="list-group-item list-group-item-action" id="list-AAC Blockds-list" data-toggle="list" href="#list-AAC Blockds" role="tab" aria-controls="AAC Blockds">AAC Blockds</a>
+         
+        </div>
+      </div>
+      <div class="col-9 scroll-area" id="nav-tabContent">
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-Steel" role="tabpanel" aria-labelledby="list-Steel-list">
+                <h4>Steel</h4>
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="card">
+                        <img src="../../assets/card-image/6188565a09990705d75fa14491eb59f0.png" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                          <h5 class="card-title">High Grade TMT Steel Bars</h5>
+                          <h6 class="card-subtitle mb-2">OPC 53 grade and 43 grade cement provide long-lasting durability…</h6>
+                          <p class="card-text"></p>
+                          <div class="card-button">Request for Quote</div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card">
+                        <img src="../../assets/card-image/6188565a09990705d75fa14491eb59f0.png" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                          <h5 class="card-title">High Grade TMT Steel Bars</h5>
+                          <h6 class="card-subtitle mb-2">OPC 53 grade and 43 grade cement provide long-lasting durability…</h6>
+                          <p class="card-text"></p>
+                          <div class="card-button">Request for Quote</div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card">
+                        <img src="../../assets/card-image/6188565a09990705d75fa14491eb59f0.png" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                          <h5 class="card-title">High Grade TMT Steel Bars</h5>
+                          <h6 class="card-subtitle mb-2">OPC 53 grade and 43 grade cement provide long-lasting durability…</h6>
+                          <p class="card-text"></p>
+                          <div class="card-button">Request for Quote</div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card">
+                        <img src="../../assets/card-image/6188565a09990705d75fa14491eb59f0.png" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                          <h5 class="card-title">High Grade TMT Steel Bars</h5>
+                          <h6 class="card-subtitle mb-2">OPC 53 grade and 43 grade cement provide long-lasting durability…</h6>
+                          <p class="card-text"></p>
+                          <div class="card-button">Request for Quote</div>
+                        </div>
+                      </div>
+                  </div>
+                 
+                </div>
+              </div>      
+          <div class="tab-pane fade" id="list-RMC" role="tabpanel" aria-labelledby="list-RMC-list">
+            <h4>RMC</h4>
+            <div class="row">
+                <div class="col-md-3">
+                  <div class="card">
+                      <img src="../../assets/card-image/90cfc030d7a629b37d40a4576d5ab17b.png" class="card-img-top" alt="Image">
+                      <div class="card-body">
+                        <h5 class="card-title">High Grade TMT Steel Bars</h5>
+                        <h6 class="card-subtitle mb-2">OPC 53 grade and 43 grade cement provide long-lasting durability…</h6>
+                        <p class="card-text"></p>
+                        <div class="card-button">Request for Quote</div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                      <img src="../../assets/card-image/90cfc030d7a629b37d40a4576d5ab17b.png" class="card-img-top" alt="Image">
+                      <div class="card-body">
+                        <h5 class="card-title">High Grade TMT Steel Bars</h5>
+                        <h6 class="card-subtitle mb-2">OPC 53 grade and 43 grade cement provide long-lasting durability…</h6>
+                        <p class="card-text"></p>
+                        <div class="card-button">Request for Quote</div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                      <img src="../../assets/card-image/90cfc030d7a629b37d40a4576d5ab17b.png" class="card-img-top" alt="Image">
+                      <div class="card-body">
+                        <h5 class="card-title">High Grade TMT Steel Bars</h5>
+                        <h6 class="card-subtitle mb-2">OPC 53 grade and 43 grade cement provide long-lasting durability…</h6>
+                        <p class="card-text"></p>
+                        <div class="card-button">Request for Quote</div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card">
+                      <img src="../../assets/card-image/90cfc030d7a629b37d40a4576d5ab17b.png" class="card-img-top" alt="Image">
+                      <div class="card-body">
+                        <h5 class="card-title">High Grade TMT Steel Bars</h5>
+                        <h6 class="card-subtitle mb-2">OPC 53 grade and 43 grade cement provide long-lasting durability…</h6>
+                        <p class="card-text"></p>
+                        <div class="card-button">Request for Quote</div>
+                      </div>
+                    </div>
+                </div>
+               
+              </div>
+          </div>
+          <div class="tab-pane fade" id="list-AAC Blockds" role="tabpanel" aria-labelledby="list-AAC Blockds-list">
+            <h4>AAC Blockds</h4>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="../../assets/card-image/6188565a09990705d75fa14491eb59f0.png" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                          <h5 class="card-title">High Grade TMT Steel Bars</h5>
+                          <h6 class="card-subtitle mb-2">OPC 53 grade and 43 grade cement provide long-lasting durability…</h6>
+                          <p class="card-text"></p>
+                          <div class="card-button">Request for Quote</div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card">
+                        <img src="../../assets/card-image/6188565a09990705d75fa14491eb59f0.png" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                          <h5 class="card-title">High Grade TMT Steel Bars</h5>
+                          <h6 class="card-subtitle mb-2">OPC 53 grade and 43 grade cement provide long-lasting durability…</h6>
+                          <p class="card-text"></p>
+                          <div class="card-button">Request for Quote</div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card">
+                        <img src="../../assets/card-image/6188565a09990705d75fa14491eb59f0.png" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                          <h5 class="card-title">High Grade TMT Steel Bars</h5>
+                          <h6 class="card-subtitle mb-2">OPC 53 grade and 43 grade cement provide long-lasting durability…</h6>
+                          <p class="card-text"></p>
+                          <div class="card-button">Request for Quote</div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card">
+                        <img src="../../assets/card-image/6188565a09990705d75fa14491eb59f0.png" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                          <h5 class="card-title">High Grade TMT Steel Bars</h5>
+                          <h6 class="card-subtitle mb-2">OPC 53 grade and 43 grade cement provide long-lasting durability…</h6>
+                          <p class="card-text"></p>
+                          <div class="card-button">Request for Quote</div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card">
+                        <img src="../../assets/card-image/6188565a09990705d75fa14491eb59f0.png" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                          <h5 class="card-title">High Grade TMT Steel Bars</h5>
+                          <h6 class="card-subtitle mb-2">OPC 53 grade and 43 grade cement provide long-lasting durability…</h6>
+                          <p class="card-text"></p>
+                          <div class="card-button">Request for Quote</div>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <section class="grey-bg p-5 rounded">
+        <div class="card mb-4">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <!-- Contact Details -->
+                        <h5>Contact Details</h5>
+                        <p><i class="bi bi-envelope"></i> Email: example@example.com</p>
+                        <p><i class="bi bi-geo-alt"></i> Address: 123 Street, City, Country</p>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- Form Inputs -->
+                        <h5>Enter Details</h5>
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Enter Name">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Enter Email">
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" class="form-control" placeholder="Enter Phone No.">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Enter Company Name">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- Dropdown and TextArea -->
+                        <h5>Enterprise Solution</h5>
+                        <form>
+                            <div class="mb-3">
+                                <select class="form-select">
+                                    <option selected>Select Enterprise Solution</option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="5" placeholder="Enter your message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+</div>
+
+<script>
+    $(document).ready(function() {
+      $('#list-tab a').on('click', function (e) {
+        e.preventDefault();
+        $(this).tab('show');
+        $('html, body').animate({
+          scrollTop: $($(this).attr('href')).offset().top
+        }, 500);
+      });
+
+      $('.scroll-area').on('scroll', function() {
+        var scrollPos = $(this).scrollTop();
+        $('.tab-pane').each(function () {
+          var currLink = $(this);
+          var refElement = $(currLink.attr('id'));
+          if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+            $('#list-tab a').removeClass('active');
+            $('#list-tab a[href="#' + currLink.attr('id') + '"]').addClass('active');
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

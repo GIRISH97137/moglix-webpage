@@ -1,0 +1,119 @@
+/* styles.css */
+body {
+    font-family: 'Rubik', semibold;
+    padding-top: 70px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.section {
+    margin-bottom: 40px;
+  }
+
+.header {
+    z-index: 1100;
+}
+
+.navbar-nav .dropdown-menu {
+    display: none;
+}
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin-top: 0.125rem;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.nav-link {
+    color: #000;
+    text-decoration: none;
+}
+.navbar-nav .nav-link{
+  padding-right: 30px;
+  padding-left: 20px;
+}
+.nav-link:hover {
+    color: #1F2137;
+}
+
+.btn-primary {
+    background-color: #D9232D;
+    border-color: #D9232D;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.grey-bg {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-control:focus,
+.form-select:focus,
+textarea:focus {
+    border-color: #D9232D;
+    box-shadow: 0 0 5px rgba(217, 35, 45, 0.5);
+    outline: none;
+}
+
+.border-danger {
+    border-color: #D9232D !important;
+}
+
+.text-danger {
+    color: #D9232D !important;
+}
+
+.scroll-area {
+    height: 400px;
+    padding: 20px;
+    
+  }
+  .card-columns {
+    column-count: 1;
+  }
+
+  .scroll-area {
+    overflow-y: auto;
+    padding: 20px;
+  }
+  
+  .tab-pane {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .card-img-top {
+    border: 1px solid lightgrey;
+  }
+  .card-title {
+    font-weight: bold;
+    color: black;
+    font-size: 1rem; /* Adjust the font size as needed */
+  }
+  .card-subtitle {
+    color: grey;
+    transition: color 0.3s;
+    font-size: 0.8rem; /* Adjust the font size as needed */
+  }
+  .card-button {
+    display: inline-block;
+    padding: 5px 10px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 0.8rem; /* Adjust the font size as needed */
+  }
